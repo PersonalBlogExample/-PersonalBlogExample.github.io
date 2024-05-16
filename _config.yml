@@ -10,7 +10,7 @@ defaults:
       layout: "author"
   - scope:
       path: ""
-      type: "products"
+      type: "posts"
     values:
       layout: "post"
   - scope:

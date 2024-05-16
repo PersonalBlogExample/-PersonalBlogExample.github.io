@@ -1,8 +1,8 @@
 - name: 主页
   link: /
-- name: 博客
-  link: /blog.html
-- name: 员工
-  link: /staff.html
+- name: 产品
+  link: /product.html
+- name: 招聘
+  link: /employment.html
 - name: 关于
   link: /about.html

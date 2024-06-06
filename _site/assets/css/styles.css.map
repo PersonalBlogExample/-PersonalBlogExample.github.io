@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss","../../_sass/navbar-center.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACE;EACA;EACA","sourcesContent":[".current {\n    color: green;\n  }",".navbar-center {\n  position: relative;\n  left: 45%;\n  transform: translatex(-55%);\n}"],"file":"styles.css"}

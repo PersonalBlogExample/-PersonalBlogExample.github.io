@@ -30,28 +30,3 @@
             class="iconfont icon-hanbaotubiao_hamburger-button"></i></span> </a> </div>
   </div>
 </header>
-
-
-
-<!-- 原始代码导航栏 -->
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <div id="navbar" class="navbar-collapse">
-      <ul class="nav navbar-nav navbar-center">
-        {% for item in site.data.navigation %}
-        <li class="active"><a href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>{{
-            item.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- 自定义 CSS，导航栏居中-->
-<style>
-  .navbar-center {
-    position: relative;
-    left: 50%;
-    transform: translatex(-50%);
-  }
-</style>
